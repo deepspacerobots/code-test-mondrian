@@ -211,5 +211,67 @@
     top: 0px;
     left: 80px;
   }
-  
+   /* For screens wider than 600px */
+  @media (min-width: 600px) {
+   .container {
+        height: 450px; /* Fixed height to match the original composition */
+    }
+
+    /* Adjust positioning of rectangles*/ 
+    .r1,.r2,.r3,.r4,.r5,.r6,.r7,.r8,.r9,.r10,.r11,.r12,.r13,.r14,.r15,.r16
+    ,.r17,.r18,.r19,.r20,.r21,.r22,.r23,.r24, .r25, .r26, .r27, .r28 {
+        position: absolute;
+    }
+
+   }
+
+/* For screens narrower than 600px */
+@media (max-width: 600px){
+    
+    .rect {
+        position: relative;
+        width: 538px; 
+        height: 200px;
+        left:0;
+    }
+
+    .r1,.r2,.r3 {
+        background-color: white;
+        width: 538px;
+        left:0;
+      }
+    
+    
+      .r4,.r5,.r6,.r7 {
+        background-color: red;
+        width: 538px;
+        left:0;
+      }
+
+      .r8,.r9,.r10,.r11,.r12,.r13,.r14,.r15,.r16{
+        background-color: grey;
+        width: 538px;
+        left:0;
+      }
+      
+      .r17,.r18,.r19,.r20,.r21 {
+        background-color:black;
+        width: 538px;
+        left:0;
+      }
+      
+      .r22,.r23,.r24, .r25 {
+        background-color: yellow;
+        width: 538px;
+        left:0;
+      }
+
+      .r26, .r27, .r28 {
+        background-color: rgba(51, 61, 51, 0.979);
+        width: 538px;
+        left:0;
+      }
+
+    
+}
   
