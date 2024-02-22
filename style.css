@@ -1,0 +1,277 @@
+.container {
+    position: relative;
+    width: 540px;
+    height: 450px;
+    border: 2px solid black;
+
+  }
+  
+  .rect {
+    position: absolute;
+    text-align: center;
+    /*font-size: 30px;*/
+    border: 1px solid bisque;
+  }
+  
+  .r1 {
+    background-color: white;
+    width: 80px;
+    height: 200px;
+    top: 0;
+    left:0;
+  }
+  
+  .r2 {
+    background-color: black;
+    width: 80px;
+    height: 70px;
+    top: 0px;
+    left: 80px;
+  }
+  
+  .r3 {
+    background-color: rgba(51, 61, 51, 0.979);
+    width: 230px;
+    height: 70px;
+    top: 0px;
+    left: 160px;
+  }
+  .r4 {
+    background-color: grey;
+    width: 148px;
+    height: 70px;
+    top: 0px;
+    left: 390px;
+  }
+  .r5 {
+    background-color: grey;
+    width: 80px;
+    height: 215px;
+    top: 200px;
+    left: 0px;
+  }
+  .r6 {
+    background-color: grey;
+    width: 200px;
+    height: 70px;
+    top: 70px;
+    left: 80px;
+  }
+  .r7 {
+    background-color: black;
+    width: 80px;
+    height: 60px;
+    top: 140px;
+    left: 80px;
+  }
+  .r8 {
+    background-color: grey;
+    width: 80px;
+    height: 215px;
+    top: 200px;
+    left: 80px;
+  }
+  .r9 {
+    background-color: yellow;
+    width: 119px;
+    height: 60px;
+    top: 140px;
+    left: 160px;
+  }
+  .r10 {
+    background-color: yellow;
+    width: 119px;
+    height: 70px;
+    top: 200px;
+    left: 160px;
+  }
+  .r11 {
+    background-color: red;
+    width: 119px;
+    height: 75px;
+    top: 270px;
+    left: 160px;
+  }
+  .r12 {
+    background-color: black;
+    width: 119px;
+    height: 75px;
+    top: 340px;
+    left: 160px;
+  }
+  .r13 {
+    background-color: red;
+    width: 109px;
+    height: 70px;
+    top: 70px;
+    left: 280px;
+  }
+  .r14 {
+    background-color: rgba(51, 61, 51, 0.979);
+    width: 109px;
+    height: 130px;
+    top: 140px;
+    left: 280px;
+  }
+  .r15 {
+    background-color: white;
+    width: 109px;
+    height: 75px;
+    top: 270px;
+    left: 280px;
+  }
+  .r16 {
+    background-color: grey;
+    width: 109px;
+    height: 75px;
+    top: 340px;
+    left: 280px;
+  }
+  .r17 {
+    background-color: black;
+    width: 120px;
+    height: 70px;
+    top: 70px;
+    left: 390px;
+  }
+  .r18 {
+    background-color: red;
+    width: 120px;
+    height: 130px;
+    top: 140px;
+    left: 390px;
+  }
+  .r19 {
+    background-color: yellow;
+    width: 120px;
+    height: 70px;
+    top: 270px;
+    left: 390px;
+  }
+  .r20 {
+    background-color: gray;
+    width: 120px;
+    height: 75px;
+    top: 340px;
+    left: 390px;
+  }
+  .r21 {
+    background-color: grey;
+    width: 27px;
+    height: 70px;
+    top: 70px;
+    left: 511px;
+  }
+  .r22 {
+    background-color: rgba(51, 61, 51, 0.979);
+    width: 27px;
+    height: 200px;
+    top: 140px;
+    left: 511px;
+  }
+  .r23 {
+    background-color: red;
+    width: 27px;
+    height: 108px;
+    top: 340px;
+    left: 511px;
+  }
+  .r24 {
+    background-color: yellow;
+    width: 159px;
+    height: 33px;
+    top: 415px;
+    left: 0px;
+  }
+  .r25 {
+    background-color: white;
+    width: 229px;
+    height: 33px;
+    top: 415px;
+    left:160px;
+  }
+  .r26 {
+    background-color: black;
+    width: 120px;
+    height: 33px;
+    top: 415px;
+    left: 390px;
+  }
+  .r27 {
+    background-color: grey;
+    width: 79px;
+    height: 8px;
+    top: 0px;
+    left: 0px;
+  }
+  .r28 {
+    background-color: grey;
+    width: 309px;
+    height: 8px;
+    top: 0px;
+    left: 80px;
+  }
+   /* For screens wider than 600px */
+  @media (min-width: 600px) {
+   .container {
+        height: 450px; /* Fixed height to match the original composition */
+    }
+
+    /* Adjust positioning of rectangles*/ 
+    .r1,.r2,.r3,.r4,.r5,.r6,.r7,.r8,.r9,.r10,.r11,.r12,.r13,.r14,.r15,.r16
+    ,.r17,.r18,.r19,.r20,.r21,.r22,.r23,.r24, .r25, .r26, .r27, .r28 {
+        position: absolute;
+    }
+
+   }
+
+/* For screens narrower than 600px */
+@media (max-width: 600px){
+    
+    .rect {
+        position: relative;
+        width: 538px; 
+        height: 200px;
+        left:0;
+    }
+
+    .r1,.r2,.r3 {
+        background-color: white;
+        width: 538px;
+        left:0;
+      }
+    
+    
+      .r4,.r5,.r6,.r7 {
+        background-color: red;
+        width: 538px;
+        left:0;
+      }
+
+      .r8,.r9,.r10,.r11,.r12,.r13,.r14,.r15,.r16{
+        background-color: grey;
+        width: 538px;
+        left:0;
+      }
+      
+      .r17,.r18,.r19,.r20,.r21 {
+        background-color:black;
+        width: 538px;
+        left:0;
+      }
+      
+      .r22,.r23,.r24, .r25 {
+        background-color: yellow;
+        width: 538px;
+        left:0;
+      }
+
+      .r26, .r27, .r28 {
+        background-color: rgba(51, 61, 51, 0.979);
+        width: 538px;
+        left:0;
+      }
+
+    
+}
+  
